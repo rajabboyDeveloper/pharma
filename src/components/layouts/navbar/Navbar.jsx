@@ -28,14 +28,16 @@ function Navbar() {
             <img src={logo} alt="" />
           </NavLink>
           <div className={style.search_box}>
-            <input
-              type="text"
-              placeholder="Поиск по названию, производителю, действующему веществу или симптому"
-              className={style.search}
-            />
-            <button>
-              <img src={search} alt="" />
-            </button>
+            <div className={style.ser}>
+              <input
+                type="text"
+                placeholder="Поиск по названию, производителю, действующему веществу или симптому"
+                className={style.search}
+              />
+              <button className={style.btn}>
+                <img src={search} alt="" />
+              </button>
+            </div>
           </div>
           <NavLink to="" className={style.favorite_link}>
             <img src={heart} alt="" />
@@ -50,27 +52,41 @@ function Navbar() {
             Войти
           </NavLink>
         </nav>
-
         <nav className={style.nav_burger}>
           <img src={burger} className={style.bur_photo} alt="" />
           <ul className={style.item}>
             <li className={style.list}>
-              <NavLink to="">Интернет-магазин </NavLink>
+              <NavLink to="" className={style.link}>
+                Интернет-магазин{" "}
+              </NavLink>
             </li>
             <li className={style.list}>
-              <NavLink to="">Главная </NavLink>
+              <NavLink to="" className={style.link}>
+                Главная{" "}
+              </NavLink>
             </li>
             <li className={style.list}>
-              <NavLink to=""> О компании </NavLink>
+              <NavLink to="" className={style.link}>
+                {" "}
+                О компании{" "}
+              </NavLink>
             </li>
             <li className={style.list}>
-              <NavLink to=""> Помощь</NavLink>
+              <NavLink to="" className={style.link}>
+                {" "}
+                Помощь
+              </NavLink>
             </li>
             <li className={style.list}>
-              <NavLink to=""> Акции </NavLink>
+              <NavLink to="" className={style.link}>
+                {" "}
+                Акции{" "}
+              </NavLink>
             </li>
             <li className={style.list}>
-              <NavLink to="">Новости</NavLink>
+              <NavLink to="" className={style.link}>
+                Новости
+              </NavLink>
             </li>
           </ul>
         </nav>
