@@ -1,0 +1,12 @@
+.banner .swiper {
+  width: 100%;
+  height: 500px;
+}
+.banner {
+  margin-bottom: 140px;
+}
+.banner .swiper-slide {
+  background-image: url(../../../../assets//images/banner-one.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

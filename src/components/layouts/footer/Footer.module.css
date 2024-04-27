@@ -1,71 +1,42 @@
-.footer {
-    height: 900px;
-}
-
-.big {
+.bigg {
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-}
-
-.father {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .logoone {
-    width: 260px;
-    height: 77px;
+    margin-bottom: 20px;
 }
 
-.text {
+.title {
     width: 309px;
     height: 44px;
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
     line-height: 21.94px;
-    text-align: left;
-    color: #323232;
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
-.one {
-    width: 157px;
-    height: 22px;
+.text {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 700;
     line-height: 21.94px;
-    text-align: left;
     color: #323232;
-    margin-top: 13px;
+    margin-bottom: 10px;
 }
 
-.tel {
-    width: 292px;
-    height: 43px;
-    font-family: Montserrat;
-    font-size: 35px;
-    font-weight: 800;
-    line-height: 42.67px;
-    text-align: left;
-    color: #323232;
-    margin-top: 20px;
-}
-
-.boxone {
+.boxbig {
     width: 150px;
     display: flex;
-    align-items: start;
-    justify-content: space-evenly;
-    padding-top: 12px;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
 }
 
-.boxoneee {
+.box {
     width: 40px;
     height: 40px;
     background-color: #1E7637;
@@ -74,12 +45,11 @@
 
 .onee {
     width: 20px;
-    height: 11px;
-    margin-top: 15px;
-    margin-left: 8px;
+    height: 20px;
+    margin: 10px 10px;
 }
 
-.twooo {
+.boxone {
     width: 40px;
     height: 40px;
     background-color: #1E7637;
@@ -89,46 +59,48 @@
 .twoo {
     width: 20px;
     height: 20px;
-    margin-top: 9px;
-    margin-left: 9px;
+    margin: 10px 10px;
 }
 
-.threeee {
+.boxtwo {
     width: 40px;
     height: 40px;
     background-color: #1E7637;
     border-radius: 10px;
-    padding-top: 8px;
-    padding-left: 13px;
 }
 
 .threee {
     width: 12px;
     height: 21px;
+    margin: 10px 13px;
 }
 
-.z {
-    width: 254px;
-    height: 22px;
+.phone {
+    width: 292px;
+    height: 43px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 42.67px;
+    color: #323232;
+    text-decoration: none;
+}
+
+.texttwo {
     font-family: Montserrat;
     font-size: 18px;
     font-weight: 500;
     line-height: 21.94px;
-    text-align: left;
     color: #1E7637;
-    margin-top: 10px;
+    margin-bottom: 60px;
 }
 
-.ver {
-    width: 162px;
-    height: 20px;
+.b {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 500;
     line-height: 19.5px;
-    text-align: left;
     color: #323232;
-    margin-top: 45px;
 }
 
 .r {
@@ -138,72 +110,63 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 25px;
-    text-align: left;
     color: #000000CC;
-    margin-top: 20px;
 }
 
-.boxtwo {
-    margin-bottom: 270px;
-}
-
-.title {
-    width: 69px;
-    height: 20px;
+.one {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
     line-height: 19.5px;
+    text-align: left;
     color: #323232;
+    margin-bottom: 8px;
 }
 
-.texta {
-    width: 72px;
-    height: 60px;
+.a {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 500;
     line-height: 30px;
+    text-align: left;
     color: #000000CC;
-    margin-top: 10px;
-    margin-bottom: 32px;
+    text-decoration: none;
 }
 
-.titleo {
-    width: 110px;
-    height: 20px;
+.two {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.5px;
+    text-align: left;
+    color: #323232;
+    margin-bottom: 5px;
+}
+
+.aa {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 25px;
+    text-align: left;
+    color: #000000CC;
+    text-decoration: none;
+}
+
+.three {
+    margin-bottom: 290px;
+}
+
+.oneone {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
     line-height: 19.5px;
     color: #323232;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
-.textr {
-    width: 93px;
-    height: 25px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 25px;
-    color: #000000CC;
-}
-
-.boxthreeone {
-    margin-bottom: 220px;
-}
-
-.titleb {
-    width: 73px;
-    height: 20px;
-    font-family: Montserrat;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 19.5px;
-}
-
-.textk {
+.k {
     width: 291px;
     height: 210px;
     font-family: Montserrat;
@@ -213,21 +176,24 @@
     color: #000000CC;
 }
 
-.boxfour {
-    margin-bottom: 170px;
+.four {
+    margin-bottom: 190px;
 }
 
-.catalog {
-    width: 69px;
-    height: 20px;
+.five {
+    margin-bottom: 150px;
+}
+
+.twotwo {
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
     line-height: 19.5px;
     color: #323232;
+    margin-bottom: 5px;
 }
 
-.catalogp {
+.m {
     width: 232px;
     height: 270px;
     font-family: Montserrat;
@@ -237,22 +203,22 @@
     color: #000000CC;
 }
 
-.boxfive {
-    margin-bottom: 350px;
+.six {
+    margin-bottom: 360px;
 }
 
-.program {
+.y {
     width: 206px;
     height: 20px;
     font-family: Montserrat;
     font-size: 16px;
     font-weight: 700;
     line-height: 19.5px;
+    text-align: left;
     color: #323232;
-    margin-bottom: 20px;
 }
 
-.programp {
+.l {
     width: 170px;
     height: 60px;
     font-family: Montserrat;
@@ -260,4 +226,5 @@
     font-weight: 500;
     line-height: 30px;
     color: #000000CC;
+    text-decoration: none;
 }

@@ -1,0 +1,50 @@
+.form {
+  width: 100%;
+  background-color: #ffffff;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 45px 0px;
+}
+.img {
+  width: 231px;
+  height: 226px;
+}
+
+.title {
+  width: 835px;
+  font-family: Montserrat;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 54.86px;
+  color: #323232;
+  margin-bottom: 20px;
+}
+
+.search {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232;
+  padding-left: 15px;
+  margin-right: 20px;
+  width: 523px;
+  height: 65px;
+  border-radius: 8px;
+  border: 2px solid #30b856;
+}
+
+.btn {
+  width: 289px;
+  height: 65px;
+  color: white;
+  border-radius: 10px;
+  background-color: #1e7637;
+  border: 2px;
+  border-radius: 10px;
+}
+
+.in {
+}
