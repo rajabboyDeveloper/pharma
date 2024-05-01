@@ -1,0 +1,11 @@
+.Questions {
+  width: 100%;
+  height: 666px;
+  background-image: url(https://s3-alpha-sig.figma.com/img/3200/0366/03356a2288ba66d41051e15a60df63b3?Expires=1715558400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=lN80xjjJ8hGc~brF~MiechS6vGp8kMdJNv8bjIKN5~dmSHV8kioIvQgrC2R44upyUBhVmTu3iUWL7lQgo4YR6m~SF2KCxLtAIc8UBL8cT50OPEsIlyZ~OxqB5t9h5pfgTqfJBZiFB3T8Sj9YMTNWT-vEPyUG2Gp08c18Nx5cWXJfH8rEpz9DzUGxwIkbx4guOvhU0idHSwTe33a7rYtluu5gyAanvNbm0eSJ96fOE1umL1pT3hDcu~c6WlDhNSsKs3y3FSuZwQJXcmN8YVgUVzVJmDnRK5TWKT9~4TXC6hvXp5wV~f7R-q6igOxXq~1EMP6nn2EqUYgGB~5bBOZl3w__);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.content {
+  width: 50%;
+}

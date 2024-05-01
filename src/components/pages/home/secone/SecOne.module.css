@@ -1,113 +1,174 @@
-.SecOne {
-}
-
-.father {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  margin-bottom: 30px;
-}
+.SecOne {}
 
 .son {
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-  padding: 20px;
-}
-.son:hover {
-  box-shadow: 0px 4px 30px 3px rgba(0, 0, 0, 0.25);
-}
-.son:hover .dop {
-  display: block;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
 
-.one {
+.sonn {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
 }
+
+.dop {}
+
+.dopone {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #30B856;
+}
+
+.doptwo {
+    width: 207px;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 500;
+    color: #757575;
+}
+
+.without {
+    overflow: hidden;
+    background-color: #1E7637;
+}
+
+.without:hover {
+    width: 150px;
+}
+
+.with {
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    padding: 0px 10px;
+}
+
+.btn_groups {
+    display: flex;
+    align-items: center;
+}
+
+.plus_boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80px;
+    height: 50px;
+    border-radius: 100px 0px 0px 100px;
+    border: 2px solid rgba(48, 184, 86, 1);
+}
+
+.btns {
+    height: 50px;
+    border: 0;
+    background-color: #30b856;
+    color: white;
+    border-radius: 0px 100px 100px 0px;
+    width: 150px;
+}
+
+.btns:hover {
+    background-color: #1E7637;
+    color: white;
+}
+
+.son:hover {
+    box-shadow: 0px 4px 30px 3px rgba(0, 0, 0, 0.25);
+}
+
+.son:hover .dop {
+    display: block;
+}
+
+.one {}
 
 .title {
-  font-family: Montserrat;
-  font-size: 35px;
-  font-weight: 700;
-  color: #323232;
-  margin-bottom: 20px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    color: #323232;
+    margin-bottom: 20px;
 }
 
 .onee {
-  width: 95%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 25px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
 }
 
 .imgheart {
-  width: 25px;
-  height: 22px;
+    width: 25px;
+    height: 22px;
 }
 
 .cash {
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 700;
-  color: #30b856;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #30b856;
 }
 
 .pill {
-  width: 100%;
-  height: 194px;
+    width: 100%;
+    height: 194px;
 }
 
 .titleone {
-  width: 241px;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-weight: 700;
-  color: #323232;
-  margin-bottom: 30px;
+    width: 241px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    color: #323232;
+    margin-bottom: 30px;
 }
 
 .p {
-  width: 164px;
-  font-family: Montserrat;
-  font-size: 16px;
-  font-weight: 700;
-  color: #323232;
-  margin: 0px 15px;
-  margin-bottom: 40px;
+    width: 164px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #323232;
+    margin: 0px 15px;
+    margin-bottom: 40px;
 }
 
 .price {
-  width: 105px;
-  font-family: Montserrat;
-  font-size: 35px;
-  font-weight: 700;
-  color: #323232;
-  margin: 0px 15px;
-  margin-bottom: 20px;
+    width: 105px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    color: #323232;
+    margin: 0px 15px;
+    margin-bottom: 20px;
 }
 
 .btn {
-  height: 50px;
-  border: 0;
-  background-color: #30b856;
-  color: white;
-  border-radius: 0px 100px 100px 0px;
-  width: 100px;
+    height: 50px;
+    border: 0;
+    background-color: #30b856;
+    color: white;
+    border-radius: 0px 100px 100px 0px;
+    width: 150px;
 }
+
 .btn_group {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
+
 .plus_box {
-  display: flex;
-  align-items: center;
-  width: 80px;
-  justify-content: space-evenly;
-  height: 50px;
-  border-radius: 100px 0px 0px 100px;
-  border: 2px solid rgba(48, 184, 86, 1);
-}
-.dop {
-  display: none;
+    display: flex;
+    align-items: center;
+    width: 80px;
+    justify-content: space-evenly;
+    height: 50px;
+    border-radius: 100px 0px 0px 100px;
+    border: 2px solid rgba(48, 184, 86, 1);
 }

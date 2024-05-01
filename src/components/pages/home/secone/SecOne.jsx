@@ -19,9 +19,9 @@ function SecOne() {
           spaceBetween={10}
           freeMode={true}
           pagination={{
-            clickable: true,
+            clickable: false,
           }}
-          modules={[Autoplay, FreeMode, Pagination]}
+          modules={[Autoplay]}
           className="mySwiper"
         >
           <SwiperSlide>
@@ -45,11 +45,30 @@ function SecOne() {
                   </div>
                   <button className={style.btn}>в корзину </button>
                 </div>
-                <div className={style.dop}>
-                  <h2 className={style.dop_title}>Доступна доставка</h2>
-                  <p className={style.dop_text}>
-                    Доставим по указанному адресу в ближайшее время
-                  </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className={style.sonn}>
+              <div className={style.one}>
+                <div className={style.onee}>
+                  <img src={imgheart} className={style.imgheart} alt="" />
+                  <p className={style.cash}>В наличии</p>
+                </div>
+                <img src={imgpill} className={style.pill} alt="" />
+
+                <h1 className={style.titleone}>Вольтарен эмуногель 1% </h1>
+                <p className={style.p}>
+                  Производитель: NOVARTIS PHARMA Объем: 100 г Выпуск: гель
+                </p>
+                <p className={style.price}>428 ₽</p>
+                <div className={style.btn_groups}>
+                  <div className={style.plus_boxs}>
+                    <span className={style.pluss}>+</span>
+                    <p className={style.calcs}>1</p>
+                    <span className={style.minuss}>-</span>
+                  </div>
+                  <button className={style.btns}>в корзину </button>
                 </div>
               </div>
             </div>
@@ -67,7 +86,14 @@ function SecOne() {
                   Производитель: NOVARTIS PHARMA Объем: 100 г Выпуск: гель
                 </p>
                 <p className={style.price}>428 ₽</p>
-                <button className={style.btn}>в корзину </button>
+                <div className={style.btn_group}>
+                  <div className={style.plus_box}>
+                    <span className={style.plus}>+</span>
+                    <p className={style.calc}>1</p>
+                    <span className={style.minus}>-</span>
+                  </div>
+                  <button className={style.btn}>в корзину </button>
+                </div>
               </div>
             </div>
           </SwiperSlide>
@@ -84,7 +110,14 @@ function SecOne() {
                   Производитель: NOVARTIS PHARMA Объем: 100 г Выпуск: гель
                 </p>
                 <p className={style.price}>428 ₽</p>
-                <button className={style.btn}>в корзину </button>
+                <div className={style.btn_group}>
+                  <div className={style.plus_box}>
+                    <span className={style.plus}>+</span>
+                    <p className={style.calc}>1</p>
+                    <span className={style.minus}>-</span>
+                  </div>
+                  <button className={style.btn}>в корзину </button>
+                </div>
               </div>
             </div>
           </SwiperSlide>
@@ -101,24 +134,14 @@ function SecOne() {
                   Производитель: NOVARTIS PHARMA Объем: 100 г Выпуск: гель
                 </p>
                 <p className={style.price}>428 ₽</p>
-                <button className={style.btn}>в корзину </button>
-              </div>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className={style.son}>
-              <div className={style.one}>
-                <div className={style.onee}>
-                  <img src={imgheart} className={style.imgheart} alt="" />
-                  <p className={style.cash}>В наличии</p>
+                <div className={style.btn_group}>
+                  <div className={style.plus_box}>
+                    <span className={style.plus}>+</span>
+                    <p className={style.calc}>1</p>
+                    <span className={style.minus}>-</span>
+                  </div>
+                  <button className={style.btn}>в корзину </button>
                 </div>
-                <img src={imgpill} className={style.pill} alt="" />
-                <h1 className={style.titleone}>Вольтарен эмуногель 1% </h1>
-                <p className={style.p}>
-                  Производитель: NOVARTIS PHARMA Объем: 100 г Выпуск: гель
-                </p>
-                <p className={style.price}>428 ₽</p>
-                <button className={style.btn}>в корзину </button>
               </div>
             </div>
           </SwiperSlide>

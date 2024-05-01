@@ -1,0 +1,62 @@
+.title {
+    width: 400px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    color: #323232;
+    margin-bottom: 40px;
+}
+
+.box {
+    width: 272px;
+    height: 604px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.boxone {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.text {
+    width: 93px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #30B856;
+}
+
+.imgtwo {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.t {
+    width: 241px;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    color: #323232;
+    margin-bottom: 35px;
+}
+
+.p {
+    width: 164px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #323232;
+    margin-bottom: 25px;
+}
+
+.price {
+    width: 105px;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: 700;
+    color: #323232;
+}
